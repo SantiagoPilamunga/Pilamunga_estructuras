@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
         float nota;
     };
     struct alumno a1 = {100, "Juan Perez", "Quito", "Programcion", 8.8};
+    printf("Nombre del alumno: %s", a1.nombre);
 
     return 0;
 }
